@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(133, 192, 252);
+    text-align: center;
+    width: 70%;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+
+h1 {
+    text-align: center;
+    background-color: #008cff;
+}
+
+img {
+    max-width: 250px
+}
+
+.tudo {
+    border: solid 2px rgba(0, 0, 0, 0.986);
+    width: 60%;
+    text-align: center;
+}
+
+.esquerda {
+    width: 40%;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.direita {
+    width: 50%;
+    height: 300px;
+    float: right;
+    background-color: #c4c4c400;
+    text-align: center
+}
+
+.unica {
+    background-color: #008cff;
+    text-align: center;
+    height: 100px;
+}
+
+.linha {
+    clear: both;
+    /* garante a posição abaixo da divs superiores (esquerda e direita),  */
+    color: black;
+}
+
+div {
+    color: black;
+}
